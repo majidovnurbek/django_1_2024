@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post page</title>
+</head>
+<body>
+    <h1>django post page</h1>
+
+{%for post in posts%}
+    <h2>{{post.title}}<h2>
+{% endfor %}
+</body>
+</html>
