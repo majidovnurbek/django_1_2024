@@ -11,3 +11,4 @@ class PostAdmin(admin.ModelAdmin):
     list_filter = [ 'publish','created','author']
     search_fields = ['title','body']
     populate_from = ['title','body']
+   
